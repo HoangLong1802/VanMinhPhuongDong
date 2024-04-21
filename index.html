@@ -1,51 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
+
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/index.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Giới thiệu</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <div class="root">
-      <div
-        class="header p-2 w-100 d-flex justify-content-between"
-        style="height: 150px"
-      >
-        <h3 class="m-2 fw-bold">Văn Minh Phương Đông</h3>
-        <img
-          src="./public/image/436592366_395880569959717_540741441882770307_n.png"
-          alt=""
-        />
-        <div class="row g-2r m-2">
-          <div class="col-auto position-relative">
-            <input
-              type="text"
-              id="search"
-              class="form-control"
-              placeholder="Search"
-            />
-            <button
-              style="background: none; border: none"
-              class="position-absolute"
-              href=""
-            >
+        <div class="header p-2 w-100 d-flex justify-content-between" style="height: 150px">
+            <h3 class="m-2 fw-bold">Văn Minh Phương Đông</h3>
+            <img src="./public/image/436592366_395880569959717_540741441882770307_n.png" alt="" />
+            <div class="row g-2r m-2">
+                <div class="col-auto position-relative">
+                    <input type="text" id="search" class="form-control" placeholder="Search" />
+                    <button style="background: none; border: none" class="position-absolute" href="">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="25"
@@ -59,29 +34,19 @@
                 />
               </svg>
             </button>
-          </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <nav class="navbar">
-        <form class="container-fluid d-flex justify-content-around">
-          <button class="btn" type="button">Giới thiệu</button>
-          <button class="btn" type="button">Vật liệu</button>
-          <button class="btn" type="button">Trang phục</button>
-          <button class="btn" type="button">Phụ kiện</button>
-        </form>
-      </nav>
-      <div class="body">
-        <div class="heading_img">
-            <img
-              src="./public/image/436428549_1434176687520485_2568845413978070888_n.png"
-              alt=""
-            />
-        </div>
-        <div class="body__Content d-flex justify-content-between mb-5">
-            <div class="left__body--content">
-                <div class="contact__content d-flex justify-content-between">
-                    <div class="left__content--contact h-100 d-flex flex-column justify-content-between">
-                        <a href=""><svg height="25" viewBox="0 0 48 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+        <div class="body">
+            <div class="heading_img">
+                <img src="./public/image/436428549_1434176687520485_2568845413978070888_n.png" alt="" />
+            </div>
+            <div class="body__Content d-flex justify-content-between mb-5">
+                <div class="left__body--content">
+                    <div class="contact__content d-flex justify-content-between">
+                        <div class="left__content--contact h-100 d-flex flex-column justify-content-between">
+                            <a href=""><svg height="25" viewBox="0 0 48 54" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                             d="M45.6709 52V46.4444C45.6709 43.4976 44.5206 40.6714 42.4732 38.5877C40.4257 36.5039 37.6487 35.3333 34.7532 35.3333H12.9177C10.0222 35.3333 7.2452 36.5039 5.19773 38.5877C3.15026 40.6714 2 43.4976 2 46.4444V52"
                             stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
@@ -89,18 +54,18 @@
                             d="M23.8354 24.2222C29.8651 24.2222 34.7532 19.2476 34.7532 13.1111C34.7532 6.97461 29.8651 2 23.8354 2C17.8058 2 12.9177 6.97461 12.9177 13.1111C12.9177 19.2476 17.8058 24.2222 23.8354 24.2222Z"
                             stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
                         </svg></a>
-                    <a href=""><svg height="25" viewBox="0 0 54 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <a href=""><svg height="25" viewBox="0 0 54 55" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M51.9984 39.5089V47.0509C52.0013 47.751 51.8579 48.4441 51.5774 49.0856C51.2969 49.7271 50.8855 50.3029 50.3696 50.7763C49.8537 51.2496 49.2446 51.61 48.5813 51.8343C47.9181 52.0586 47.2153 52.1419 46.518 52.0789C38.782 51.2383 25.3511 48.5948 24.8223 44.3609C18.748 40.5011 13.5982 35.3512 9.73834 29.277C5.48965 22.7185 2.8456 15.2515 2.02041 7.48073C1.95758 6.78553 2.0402 6.08487 2.26301 5.42335C2.48581 4.76183 2.84391 4.15395 3.31452 3.63841C3.78513 3.12287 4.35792 2.71097 4.99644 2.42893C5.63496 2.1469 6.32521 2.0009 7.02324 2.00024H14.5652C15.7852 1.98824 16.968 2.42028 17.8931 3.21584C18.8182 4.0114 19.4224 5.1162 19.5932 6.3243C19.9115 8.73789 20.5018 11.1077 21.353 13.3886C21.6912 14.2884 21.7644 15.2663 21.5639 16.2065C21.3634 17.1466 20.8976 18.0096 20.2217 18.6931L17.0289 21.8859C20.6077 28.1798 25.8189 33.391 32.1128 36.9698L35.3056 33.777C35.9891 33.1011 36.8521 32.6353 37.7922 32.4348C38.7324 32.2343 39.7103 32.3075 40.6101 32.6457C42.891 33.4968 45.2608 34.0872 47.6744 34.4055C48.8956 34.5778 50.0109 35.1929 50.8082 36.1339C51.6054 37.0748 52.029 38.276 51.9984 39.5089Z"
                             stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
                     </svg></a>
-                    <a href=""><svg height="25" viewBox="0 0 32 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <a href=""><svg height="25" viewBox="0 0 32 54" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M29.5 2H22C18.6848 2 15.5054 3.31696 13.1612 5.66117C10.817 8.00537 9.5 11.1848 9.5 14.5V22H2V32H9.5V52H19.5V32H27L29.5 22H19.5V14.5C19.5 13.837 19.7634 13.2011 20.2322 12.7322C20.7011 12.2634 21.337 12 22 12H29.5V2Z"
                             stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
                     </svg></a>
-                    <a href="">
-                        <svg height="25" viewBox="0 0 45 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <a href="">
+                                <svg height="25" viewBox="0 0 45 54" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M42.9091 22.4545C42.9091 38.3636 22.4545 52 22.4545 52C22.4545 52 2 38.3636 2 22.4545C2 17.0297 4.15503 11.827 7.991 7.991C11.827 4.15503 17.0297 2 22.4545 2C27.8794 2 33.0821 4.15503 36.9181 7.991C40.7541 11.827 42.9091 17.0297 42.9091 22.4545Z"
                                 stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
@@ -108,19 +73,18 @@
                                 d="M22.4545 29.2727C26.2201 29.2727 29.2727 26.2201 29.2727 22.4545C29.2727 18.689 26.2201 15.6364 22.4545 15.6364C18.689 15.6364 15.6364 18.689 15.6364 22.4545C15.6364 26.2201 18.689 29.2727 22.4545 29.2727Z"
                                 stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
-                    </a>
-                    </div>
-                    <div class="right__content--contact h-100 d-flex flex-column justify-content-between">
-                        <a href="">Phan Thị Nhã Phương</a>
-                        <a href="">0906069353</a>
-                        <a href="">Thoitrangaicap.fb</a>
-                        <a href="">Van Lang University</a>
-                    </div>
+                            </a>
+                        </div>
+                        <div class="right__content--contact h-100 d-flex flex-column justify-content-between">
+                            <a href="">Phan Thị Nhã Phương</a>
+                            <a href="">0906069353</a>
+                            <a href="">Thoitrangaicap.fb</a>
+                            <a href="">Van Lang University</a>
+                        </div>
 
-                </div>
-                <div class="img">
-                    <svg height="470" viewBox="0 0 526 703" fill="none" xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                    </div>
+                    <div class="img">
+                        <svg height="470" viewBox="0 0 526 703" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <rect width="526" height="703" fill="url(#pattern0_14_95)" />
                         <defs>
                             <pattern id="pattern0_14_95" patternContentUnits="objectBoundingBox" width="1" height="1">
@@ -131,22 +95,90 @@
                         </defs>
                     </svg>
 
+                    </div>
+                </div>
+                <div class="right__body--content">
+                    <h3>Sơ lược về thời trang Ai Cập Cổ Đại</h3>
+                    <p>Ai Cập cổ đại là một nền văn minh cổ đại nằm ở Đông Bắc châu Phi, tập trung dọc theo hạ lưu của sông Nile thuộc khu vực đất nước Ai Cập ngày nay. Thời trang Ai Cập cổ đại, phát triển từ khoảng 3100 TCN đến 332 TCN, là biểu tượng của văn hóa, lịch sử và quyền lực trong xã hội pharaon. Trang phục Ai Cập cổ đại là một phần không thể thiếu của văn hóa và lịch sử Ai Cập. Nó giúp tái hiện lại cuộc sống, niềm tin và giá trị của người dân Ai Cập cổ đại, đồng thời cũng phản ánh sự phát triển của nền văn hóa và nghệ thuật của thời kỳ đó. Là một tác phẩm nghệ thuật trong việc sử dụng màu sắc, họa tiết, và trang sức. Chúng không chỉ làm nổi bật vẻ đẹp của người mặc mà còn là một phần của di sản nghệ thuật đỉnh cao của loài người từng tìm thấy. 
+                        
+                    </p>
                 </div>
             </div>
-            <div class="right__body--content">
-                <h3>Sơ lược về Ai Cập Cổ Đại</h3>
-                <p>Ai Cập cổ đại là một nền văn minh cổ đại nằm ở Đông Bắc châu Phi, tập trung dọc theo hạ lưu của sông Nile thuộc khu vực
-                đất nước Ai Cập ngày nay. Nền văn minh Ai Cập được thống nhất vào năm 3150 TCN với sự thống nhất chính trị của Thượng và
-                Hạ Ai Cập dưới thời vị pharaon đầu tiên. Lịch sử của Ai Cập cổ đại đã trải qua một loạt các thời kỳ vương quốc ổn định
-                và các giai đoạn hỗn loạn giữa chúng. Cùng với sự phát triển kinh tế - xã hội, văn minh Ai Cập đạt được nhiều thành tựu
-                đáng chú ý như chữ viết, văn học, kiến trúc và các kiến thức khoa học tự nhiên. Có thể nói rằng văn minh Ai Cập là một
-                trong những nền văn minh phát triển rực rỡ nhất của thế giới cổ đại mà tầm ảnh hưởng xuyên không gian và thời gian. Cho
-                đến nay, những thành tựu ấy vẫn làm cho chúng ta thán phục và ngạc nhiên trước sức sáng tạo kì diệu của Ai Cập thời cổ
-                đại.</p>
+            <div class="content__below">
+                <div class="content__show--wrap first-content_wrap d-flex flex-row-reverse justify-content-between">
+                    <img src="./public/image/Fashion/CayLanh.jpg" alt="" class="img__content">
+                    <div class="content__detail">
+                        <h4>Vật liệu và kỹ thuật làm trang phục</h4>
+                        <form action="./VatLieu.html" target="my_iframe" enctype="multipart/form-data">
+                            <p>• Vật liệu trang phục<button type="submit" class="btn__control" data-bs-toggle="modal" data-bs-whatever="./public/image/Fashion/vatlieu.jpg" data-bs-target="#exampleModal">Chi tiết</button></p>
+                        </form>
+                        <form action="./kythuat.html" target="my_iframe" enctype="multipart/form-data">
+                            <p>• Kỹ thuật làm trang phục<button type="submit" class="btn__control" data-bs-toggle="modal" data-bs-whatever="./public/image/Fashion/KythuatVailanh.jpg" data-bs-target="#exampleModal">Chi tiết</button></p>
+                        </form>
+                    </div>
+                </div>
+                <div class="content__show--wrap d-flex">
+                    <img src="./public/image/Fashion/Ai-cap-co-dai-va-suc-anh-huong-voi-thoi-trang-hien-dai-2-1656490127-149-width1000height1162.jpg" alt="" class="img__content">
+                    <div class="content__detail">
+                        <h4>Trang phục của thường dân</h4>
+                        <form action="./MenFashion.html" target="my_iframe" enctype="multipart/form-data">
+                            <p>• Trang phục cho nam giới<button type="submit" data-bs-toggle="modal" data-bs-whatever="./public/image/Fashion/ManPicture.jpg" data-bs-target="#exampleModal">Chi tiết</button></p>
+                        </form>
+                        <form action="./FeMaleFashion.html" target="my_iframe" enctype="multipart/form-data">
+                            <p>• Trang phục cho nữ giới<button type="submit" data-bs-toggle="modal" data-bs-whatever="./public/image/Fashion/FeMalePicture.jpg"  data-bs-target="#exampleModal">Chi tiết</button></p>
+                        </form>
+                         <form action="./KidFashion.html" target="my_iframe" enctype="multipart/form-data">
+                            <p>• Trang phục cho trẻ em<button type="submit" data-bs-toggle="modal" data-bs-whatever="./public/image/Fashion/poorkidpic.jpg"  data-bs-target="#exampleModal">Chi tiết</button></p>    
+                        </form>
+                    </div>
+                </div>
+                <div class="content__show--wrap second-content_wrap d-flex flex-row-reverse justify-content-between">
+                    <img src="./public/image/Fashion/CayLanh.jpg" alt="" class="img__content">
+                    <div class="content__detail">
+                        <h4>Phụ kiện và trang sức</h4>
+                        <form action="./tocgia.html" target="my_iframe" enctype="multipart/form-data">
+                            <p>• Tóc giả<button type="submit" class="btn__control" data-bs-toggle="modal" data-bs-whatever="./public/image/Fashion/tocgia.jpg" data-bs-target="#exampleModal">Chi tiết</button></p>
+                        </form>
+                        <form action="./dep.html" target="my_iframe" enctype="multipart/form-data">
+                            <p>• Dép<button type="submit" class="btn__control" data-bs-toggle="modal" data-bs-whatever="./public/image/Fashion/dep1.jpg" data-bs-target="#exampleModal">Chi tiết</button></p>
+                        </form>
+                        <form action="./trangsuc.html" target="my_iframe" enctype="multipart/form-data">
+                            <p>• Trang sức<button type="submit" class="btn__control" data-bs-toggle="modal" data-bs-whatever="./public/image/Fashion/trangsucmain.jpg" data-bs-target="#exampleModal">Chi tiết</button></p>
+                        </form>
+                         <form action="./trangdiem.html" target="my_iframe" enctype="multipart/form-data">
+                            <p>• Trang điểm<button type="submit" class="btn__control" data-bs-toggle="modal" data-bs-whatever="./public/image/Fashion/trangdiem.jpg" data-bs-target="#exampleModal">Chi tiết</button></p>
+                        </form>
+                        
+                         <form action="./nuochoa.html" target="my_iframe" enctype="multipart/form-data">
+                            <p>• Nước hoa <button type="submit" class="btn__control" data-bs-toggle="modal" data-bs-whatever="./public/image/Fashion/nuochoa.jpg" data-bs-target="#exampleModal">Chi tiết</button></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        <div class="footer"></div>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img src="" alt="">
+                        <iframe class="iframe__show" name="my_iframe"></iframe>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
             </div>
         </div>
-      </div>
-      <div class="footer"></div>
     </div>
-  </body>
+</body>
+<script>
+    var exampleModal = document.getElementById('exampleModal')
+    exampleModal.addEventListener('show.bs.modal', function(event) {
+        var button = event.relatedTarget
+        var recipient = button.getAttribute('data-bs-whatever')
+        var modalBodyInput = exampleModal.querySelector('.modal-body img')
+        modalBodyInput.src = recipient
+    })
+</script>
+
 </html>
